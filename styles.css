@@ -51,7 +51,8 @@ body {
 }
 
 .hamburger-menu {
-    display: flex;  
+    display: flex;
+    background-color: black;  
 }
 
 .hamburger {
@@ -63,7 +64,7 @@ body {
 .hamburger-menu span {
     align-self: center;
     margin-left: 5%;
-    color:#252594;
+    color: white;
     font-weight: bold;
     font-size: 13px;
 }
@@ -128,7 +129,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .box-main-1 img {
@@ -146,6 +146,78 @@ body {
     height: 200px;
 }
 
+.container-aside ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2em;
+}
+
+.container-aside ul li {
+    list-style-type: none;
+}
+
+.container-aside ul li a {
+    color: #252594;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container-aside ul li a:hover {
+    color: darkred;
+}
+
+.header-ul-news {
+    font-size: 1.5em;
+    background-color: rgb(170, 148, 148);
+    border-radius: 6px;
+    font-style: italic;
+}
+
+.container-ads {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.container-ads img {
+    padding: 0.5em;
+}
+
+.container-ads a {
+    text-align: center;
+    color: rgb(136, 136, 50);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container-footer-boxes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 7% 0 7%;
+    line-height: 2em;
+    text-align: center;
+}
+
+.container-footer-boxes a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.container-footer-boxes a:hover {
+    color: darkred;
+}
+
+.copyright-license {
+    display: flex;
+    text-align: center;
+    padding-top: 8%;
+}
 
 
 
