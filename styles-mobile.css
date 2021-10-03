@@ -3,6 +3,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 1em;
     line-height: 1.15;
+    image-resolution: 300px;
 }
 
 .container-header {
@@ -216,13 +217,13 @@ body {
 .copyright-license {
     display: flex;
     text-align: center;
-    padding-top: 8%;
+    padding: 8% 15% 0 15%;
+    line-height: 1.5em;
+    font-size: 0.7em;
+}
 }
 
 
-
-
-}
 /*
 .container-menu ul {
     display: flex;
