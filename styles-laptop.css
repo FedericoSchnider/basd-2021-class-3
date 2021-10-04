@@ -110,7 +110,7 @@
       flex-wrap: wrap;
       flex-grow: 1;
       order: 2;
-      width: 55%;
+      width: 50%;
     }
   
     .container-main-news h3 {
@@ -223,6 +223,7 @@
       width: 20%;
       order: 3;
       padding: 2%;
+      margin-right: 5%;
     }
   
     .container-ads img {
