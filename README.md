@@ -2,6 +2,16 @@
 
 **In repo you can find documentation for the project - Images can be found in "assets" folder - 4 css files were used**
 
+# Github Pages and Display
+
+**Github Pages: https://federicoschnider.github.io/basd-2021-class-3/
+
+**Display:
+
+- Laptop: 1440px - 951px
+- Tablet: 950px - 469px
+- Mobile 468px - 300px
+
 # Week 3 Project:
 
 - Design a news paper front page of your desire through the usage of HTML, CSS, Flex-Box and make it responsive.
