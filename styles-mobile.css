@@ -134,18 +134,18 @@
     }
 
     .box-main-1 img {
-        width: 400px;
-        height: 200px;
+        width: 80%;
+        height: 50%;
     }
 
     .box-main-2 img {
-        width: 400px;
-        height: 200px;
+        width: 80%;
+        height: 100%;
     }
 
     .box-main-3 img {
-        width: 400px;
-        height: 200px;
+        width: 80%;
+        height: 50%;
     }
 
     .container-aside ul {
