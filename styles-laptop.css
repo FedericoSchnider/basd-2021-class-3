@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px) and (min-width: 951px) {
+@media screen and (min-width: 951px) {
     body {
       font-family: 'Libre Franklin', sans-serif;
       font-size: 1em;
@@ -232,6 +232,10 @@
     }
   
     .container-ads a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       padding-bottom: 30%;
       text-align: center;
       color: rgb(136, 136, 50);

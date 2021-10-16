@@ -1,0 +1,164 @@
+body{
+    height: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.5vw;
+}
+
+.mainHeader h1, p{
+    text-align: center;
+}
+
+.mainHeader a{
+    display: flex;
+    width: 25%;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#logo{
+    margin-left: 5%;
+}
+
+.mainHeader img{
+    height: 100%;
+    width: 100%;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(112, 104, 104, 0.466);
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#navBar{
+    display: none;
+}
+
+#navBarMobile{
+    margin-left: 3%;
+}
+
+#ref{
+    margin-left: 10%;
+    font-size: 3vw;
+}
+
+#hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+main form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 4vw;
+}
+
+main form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+label{
+    height: 80%;
+    width: 80%;
+}
+
+input{
+    height: 80%;
+    width: 80%;
+}
+
+button{
+    margin-top: 10%;
+    height: 100%;
+    width: 25%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer ul li a{
+    font-size: 3vw;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer ul li{
+    margin: 1 0 1 0;
+    list-style-type: none;
+}
+
+footer p{
+    margin-top: 10%;
+}
+
+footer {
+}
+
+@media screen and (min-width: 1024px){
+    #navBarMobile{
+        display: none;
+    }
+
+    #ref{
+        display: none;
+    }
+
+    #navBar{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #nav{
+        justify-content: center;
+        width: 100%;
+    }
+}
