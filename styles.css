@@ -4,7 +4,6 @@ body{
 }
 
 header{
-    font-family: 'Libre Franklin', sans-serif;
     font-size: 2.5vw;
 }
 
@@ -21,6 +20,7 @@ header{
 
 #logo{
     margin-left: 5%;
+    margin-top: 1%;
 }
 
 .mainHeader img{
@@ -77,7 +77,7 @@ main form{
     align-items: center;
     flex-wrap: wrap;
     width: 90%;
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
 main form div{
@@ -99,17 +99,24 @@ main form p{
 label{
     height: 80%;
     width: 80%;
+    font-size: 2vw;
+    margin: 0.5% 0;
+    font-weight: 600;
 }
 
 input{
     height: 100%;
     width: 50%;
+    font-size: 2vw;
+    margin: 0.5% 0;
 }
 
 button{
     margin-top: 10%;
     height: 100%;
     width: 25%;
+    font-size: 2vw;
+
 }
 
 footer{
